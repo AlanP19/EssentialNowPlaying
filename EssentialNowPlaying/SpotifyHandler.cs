@@ -82,9 +82,9 @@ namespace Essential_Now_Playing
                     }
                     else if (noSong)
                     {
-                        writeToPath(path, "Paused", true);
-
-                        //preview.Text = "Paused";
+                        writeToPath(path, "  ", true);
+ 
+                        //preview.Text = "  ";
                         oldName = null;
                     }
                     else
